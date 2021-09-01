@@ -1,9 +1,10 @@
 :root {
     font-size: 16px;
-    --text-primary: #57a0d2; 
-    --text-secondary: #4682b4;
+    --text-primary: #8bc2e7; 
+    --text-secondary: #376183;
     --bg-primary: #008ECC;
-    --bg-secondary: #4682b4;
+    --bg-secondary: #80c6ff;
+    list-style-type: none;
 }
 
 body {
@@ -23,22 +24,17 @@ body::-webkit-scrollbar-thumb {
 }
 main {
     margin-left: 5rem;
-
 }
 .navbar {
     width: 5rem;
     height: 100vh;
-    position:fixed;
+    position: fixed;
     background-color: var(--bg-primary);
+    margin-top: 0;
+    list-style-type: none;
 }
 .navbar-nav {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.nav-item:last-child {
-    margin-top: auto;
+    padding: 0;
 }
