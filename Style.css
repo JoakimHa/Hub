@@ -12,6 +12,7 @@ body {
     background-color: white;
     margin: 0;
     padding: 0;
+    text-align:center;
 }
 body::-webkit-scrollbar {
     width: 0.25rem;
@@ -24,10 +25,11 @@ body::-webkit-scrollbar-thumb {
 }
 main {
     margin-left: 6rem;
-    padding:1;
+    padding: 1;
     margin-top: 10;
 }
 .navbar {
+    font-family: 'Azeret Mono', monospace;
     width: 5rem;
     height: 100vh;
     position: fixed;
@@ -56,11 +58,14 @@ main {
 .nav-link:hover {
     filter: grayscale(0%) opacity(1);
     background: var(--bg-secondary);
-    color: var(--text-secondary)
+    color: var(--text-secondary);
+
 }
 .link-text {
     display:none;
     margin-left: 1rem;
+    width: 9rem;
+    padding-right: 3rem;
 }
 .nav-link svg {
     min-width: 2rem;
@@ -81,4 +86,8 @@ main {
 .fa-primary
 .fa-secondary {
 transition: 200ms ease;
+}
+.main-text {
+    padding: 0;
+    margin-left: 5rem;
 }
