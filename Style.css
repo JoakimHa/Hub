@@ -6,7 +6,9 @@
     --bg-secondary: #242424;
     list-style-type: none;
 }
-
+div.top {
+    color: white;
+}
 body {
     color: black;
     background-color: white;
@@ -90,4 +92,10 @@ transition: 200ms ease;
 .main-text {
     padding: 0;
     margin-left: 5rem;
+}
+.panel {
+    
+}
+img.panel {
+    size: 1rem;
 }
