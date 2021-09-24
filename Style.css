@@ -93,9 +93,9 @@ transition: 200ms ease;
     padding: 0;
     margin-left: 5rem;
 }
-.panel {
-    
-}
-img.panel {
-    size: 1rem;
+div.Panel {
+    outline: black;
+    background-color: rgb(208, 208, 255);
+    margin: 100px;
+    padding: 100px;
 }
